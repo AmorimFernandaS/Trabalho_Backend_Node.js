@@ -1,0 +1,15 @@
+# Arquivos gerados pelo Node.js
+node_modules/
+
+# Arquivos gerados pelo editor de código (por exemplo, Visual Studio Code)
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados pela aplicação em tempo de execução
+dist/
+build/
+
+# Arquivos de ambiente
+.env
