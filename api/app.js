@@ -22,6 +22,11 @@ app.get('/', (req, res) => {
   res.json(data);
 });
 
+// Middleware de tratamento de erros
+app.use((req, res) => {
+  res.status(404).json({ error:'404:Ocorreu um erro!' });
+});
+
 // Iniciar o servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
